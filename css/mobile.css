@@ -91,19 +91,19 @@ div#nav-links a:hover {
 }
 
 #bgimg-hero {
-  background-image: url("/images/williamsburg-bridge.jpg");
+  background-image: url("/src/images/williamsburg-bridge.jpg");
 }
 
 #bgimg-projects {
-  background-image: url("/images/nyc-long-expo-sm.png");
+  background-image: url("/src/images/nyc-long-expo-sm.png");
 }
 
 #bgimg-experience {
-  background-image: url("/images/water-tower.jpg");
+  background-image: url("/src/images/water-tower.jpg");
 }
 
 #bgimg-contact {
-  background-image: url("/images/cottage-lake.jpg");
+  background-image: url("/src/images/cottage-lake.jpg");
   width: 50%;
   float: left;
 }
