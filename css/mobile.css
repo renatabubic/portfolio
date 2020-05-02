@@ -118,11 +118,14 @@ div#nav-links a:hover {
 }
 
 .caption span.border {
+  display: inline-block;
   background-color: #4f4f4f;
+  font-weight: bold;
   color: #fff;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
+  border-radius: 35px;
 }
 
 .caption span.border-2 {
@@ -132,13 +135,20 @@ div#nav-links a:hover {
   font-size: 25px;
   letter-spacing: 10px;
 }
-
 .caption span.border-3 {
   background-color: transparent;
   color: #4f4f4f;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+
+#SE-title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+  letter-spacing: 5px;
+  font-style: oblique;
 }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
