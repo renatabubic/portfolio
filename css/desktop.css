@@ -94,19 +94,19 @@ a.active hr {
 }
 
 #bgimg-hero {
-  background-image: url("/src/williamsburg-bridge.jpg");
+  background-image: url("src/williamsburg-bridge.jpg");
 }
 
 #bgimg-projects {
-  background-image: url("/src/nyc-long-expo-bg.png");
+  background-image: url("src/nyc-long-expo-bg.png");
 }
 
 #bgimg-experience {
-  background-image: url("/src/water-tower.jpg");
+  background-image: url("src/water-tower.jpg");
 }
 
 #bgimg-contact {
-  background-image: url("/src/cottage-lake.jpg");
+  background-image: url("src/cottage-lake.jpg");
   width: 50%;
   float: left;
 }
