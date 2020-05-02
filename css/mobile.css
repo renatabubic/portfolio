@@ -1,0 +1,388 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+/* Style the navigation menu */
+#topnav {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: none;
+}
+
+#topnav.scrolled,
+#topnav.active {
+  background-color: #fff !important;
+  opacity: 0.85;
+  transition: background-color 200ms linear;
+  border-color: #ffffff;
+  -webkit-box-shadow: 0 8px 6px -6px #bfbfbf;
+  -moz-box-shadow: 0 8px 6px -6px #bfbfbf;
+  box-shadow: 0 8px 6px -6px #bfbfbf;
+}
+
+.nav-icon {
+  width: 30%;
+}
+
+.favicon {
+  width: 60px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+#topnav #nav-links {
+  display: none;
+}
+
+/* Style navigation menu links */
+#topnav a {
+  color: #777;
+  text-decoration: none;
+  padding-left: 40px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+}
+
+#topnav.scrolled a {
+  color: #777;
+}
+
+a hr {
+  width: 100%;
+  border: none;
+  height: 2px;
+  background-color: #fff;
+  display: none;
+}
+
+#topnav.scrolled a hr {
+  background-color: #777;
+}
+
+div#nav-links a:hover {
+  background-color: #ddd;
+}
+
+/* Style the hamburger menu */
+#topnav a.icon {
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 40px;
+  color: #777;
+  padding: 0px 5px;
+}
+
+.bgimg {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+#bgimg-hero {
+  background-image: url("/images/williamsburg-bridge.jpg");
+}
+
+#bgimg-projects {
+  background-image: url("/images/nyc-long-expo-sm.png");
+}
+
+#bgimg-experience {
+  background-image: url("/images/water-tower.jpg");
+}
+
+#bgimg-contact {
+  background-image: url("/images/cottage-lake.jpg");
+  width: 50%;
+  float: left;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #4f4f4f;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.caption span.border-2 {
+  background-color: transparent;
+  color: #f7f7f7;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption span.border-3 {
+  background-color: transparent;
+  color: #4f4f4f;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  z-index: 10;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: none;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #ddd;
+}
+
+.email {
+  background: #55acee;
+  color: white;
+}
+
+.phone {
+  background: #719bac;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github {
+  background: #814f8f;
+  color: white;
+}
+#section-about {
+  color: #777;
+  background-color: white;
+  padding: 50px 20px;
+  text-align: left;
+}
+
+#jump-about,
+#jump-projects,
+#jump-experience,
+#jump-contact {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+#jump-about {
+  top: -133px;
+}
+
+img#headshot {
+  border-radius: 50%;
+  width: 40%;
+  margin-left: 30%;
+  display: block;
+}
+
+#about-technologies {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+}
+
+.panel h3 {
+  color: #111;
+}
+
+.outer {
+  position: relative;
+}
+
+#section-projects div.inner {
+  color: #fff;
+  background-color: #8d9aa5;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 30px 20px;
+}
+
+#section-projects h3,
+#section-projects h4 {
+  letter-spacing: 3px;
+}
+
+.generic-btn {
+  color: #fff;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+.project-btn:hover {
+  background-color: #a0b0bd;
+}
+
+.project-img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img-phone,
+.project-img-laptop {
+  margin: 30px;
+}
+
+.project-img-phone {
+  width: 70%;
+}
+
+.project-img-laptop {
+  width: 70%;
+}
+
+#section-experience div.inner {
+  color: #ddd;
+  background-color: #282e34;
+  padding: 0px;
+  text-align: left;
+}
+
+#section-contact div.inner {
+  color: #f7f7f7;
+  background-color: #434d56;
+  text-align: center;
+  letter-spacing: 1px;
+  height: 100%;
+  padding: 50px 18px;
+}
+
+#download {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 5px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+#download-btn:hover {
+  background-color: #424d57;
+}
+
+.accordion {
+  background-color: #282e34;
+  color: #ddd;
+  cursor: pointer;
+  padding: 18px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 5px;
+  transition: 0.4s;
+}
+
+button.active,
+.accordion:hover {
+  background-color: #2c333a;
+}
+
+.panel {
+  padding: 0 20px;
+  display: block;
+  background-color: #ddd;
+  color: #333333;
+  overflow: hidden;
+}
+
+.panel a {
+  color: #333333;
+}
+
+.panel h3 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.caret {
+  float: right;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  margin-top: 15px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #ddd;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #ddd;
+}
+
+span.date {
+  display: block;
+}
+
+.inner a {
+  text-decoration: none;
+}
+
+#contact-name {
+  color: #f7f7f7;
+  font-size: 20px;
+}
+
+#footer-icons img {
+  width: 45px;
+}
+
+#footer-icons {
+  padding-top: 20px;
+}

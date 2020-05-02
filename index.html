@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Renata Bubic - Software Engineer</title>
+
+    
+        <!--  META DATA  -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="favicon.png" />
+    
+        <!-- CSS -->
+        <link
+          type="text/css"
+          rel="stylesheet"
+          media="only screen and (min-width: 870px)"
+          href="./css/desktop.css"
+        />
+        <link
+          type="text/css"
+          rel="stylesheet"
+          media="only screen and (max-width: 869px)"
+          href="./css/mobile.css"
+        />
+        <link
+
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+      </head>
+      <body spellcheck="true">
+        <div id="topnav" >
+          <div class="nav-icon">
+            <img class="favicon" src="./images/favicon.png" />
+          </div>
+          <!-- Navigation links  -->
+          <div id="nav-links">
+            <a id="nav-about" onclick="scrollToDiv('jump-about')"
+              >ABOUT
+              <hr
+            /></a>
+            <a id="nav-projects" onclick="scrollToDiv('jump-projects')"
+              >PROJECTS
+              <hr
+            /></a>
+            <a id="nav-experience" onclick="scrollToDiv('jump-experience')"
+              >EXPERIENCE
+              <hr
+            /></a>
+            <a id="nav-contact" onclick="scrollToDiv('jump-contact')"
+              >CONTACT
+              <hr
+            /></a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links  -->
+          <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    
+        <!-- Main Hero -->
+        <div class="bgimg" id="bgimg-hero">
+          <div class="caption">
+            <span class="border">RENATA BUBIC 
+              <h6 id='SE-title'> Software Engineer  </h6>
+          </span>
+          </div>
+        </div>
+    
+        <!-- Sidebar Social Icons (Desktop Only) -->
+        <div class="icon-bar">
+          <a target="_blank" href="mailto:renata.c.bubic@gmail.com" class="email"
+            ><i class="fa fa-envelope"></i
+          ></a>
+          <a target="_blank" href="tel:+1(646)637-1206" class="phone"
+            ><i class="fa fa-phone"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/renatabubic//"
+            class="linkedin"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/renatabubic" class="github"
+            ><i class="fa fa-github"></i
+          ></a>
+        </div>
+    
+        <!-- About Section -->
+        <div id="section-about">
+          <a id="jump-about"></a>
+          <img id="headshot" src="/images/headshot.jpg"" />
+          <div id="about">
+            <h3>ABOUT ME</h3>
+    
+            <p>
+              <strong>Hello! I'm Renata,</strong> a full-stack software engineer based in NYC with a background in marketing and sales.</p>
+    
+              <p>In universcity, I did an undergraduate degree in International Relations and then a Masters of Science in Marketing. While working in the consumer packaged goods industry, 
+                for Revlon Consumer Products, I realized my passion for automation and problem solving. This lead me to enroll in the full-time immersive web-development program at Grace Hopper Fullstack Academy. 
+                DotEaterLogo.png   There, my passion for coding grew which solidified my decision for this huge career pivot. Since graduating, I'm seeking a software engineering position, in any capacity, 
+                for a company that work on cutting-edge technologies, that invests in its employees, and where I can continuously grow and learn.
+              </br>
+              </br>
+                In summary, I am a pragmatic software engineer and an idealistic marketer looking to work on a team building intuitive tools.
+            </p>
+    
+            <p>Here's a few technologies I've been working with recently:</p>
+            <div id="about-technologies">
+              <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Sequelize</li>
+                <li>PostgreSQL</li>
+                <li>React</li>
+                <li>Redux</li>
+              </ul>
+              <ul>
+                <li>Firebase/Firestore</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Git</li>
+                <li>Sockets.io</li>
+                <li>Phaser</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Projects Hero -->
+        <div class="bgimg" id="bgimg-projects">
+          <a id="jump-projects"></a>
+          <div class="caption">
+            <span class="border-2">PROJECTS</span>
+          </div>
+        </div>
+    
+        <!-- Projects Section -->
+        <div class="outer" id="section-projects">
+          <div class="inner">
+            <div id="projects">
+    
+              <!-- Project 1 -->
+              <div class="single-project">
+                <div class="project-content">
+                  <h3>Dot Eater</h3>
+                  <p>
+                    This project is a one-level online replica of Namco’s multiplayer arcade game, 
+                    Pac-Man Battle Royale. It allows you to virtually enjoy the classic pac man experience 
+                    whilst playing against your friends in real-time. Eat dots. Eat your friends!
+                  </p>
+                  <h4>TECH STACK</h4>
+                  <ul>
+                    <li>Phaser3</li>
+                    <li>React</li>
+                    <li>Firestore/Firebase</li>
+                    <li>Socket.io</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                  </ul>
+                  <div>
+                    <a
+                      class="generic-btn project-btn"
+                      target="_blank"
+                      <!-- href="https://github.com/Team-Blade/Capstone-Project" -->
+                      > VIEW ON GITHUB</a
+                    >
+                    <a
+                      class="generic-btn project-btn"
+                      target="_blank"
+                      <!-- href="https://dot-eater.herokuapp.com/" -->
+                      > PLAY IT</a
+                    >
+                  </div>
+                </div>
+                <div class="project-img-div">
+                  <img class="project-img-phone" src="./images/dot-eater-macbook.png" />
+                </div>
+              </div>
+              <hr>
+    
+              <!-- Project 2 -->
+              <div class="single-project">
+                <div class="project-content">
+                  <h3>Grace Potter</h3>
+                  <p>
+                    An e-commerce site for selling indoor & outdoor plants. Grace Potter utlizes the technologies listed below to allow users or guests to create carts, continue shiopping, edit their carts, and checkout. Grace Potter utilizes Trefle.io, a plant database API, to retreive over 4000 plant data points.
+                  <h4>TECH STACK</h4>
+                  <ul>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Express.js</li>
+                    <li>Node.js</li>
+                    <li>PostgreSQL</li>
+                    <li>Trefle.io</li>
+                  </ul>
+                  <div>
+                    <a
+                      class="generic-btn project-btn"
+                      target="_blank"
+                      <!-- href="https://github.com/2001-man-display-none/Grace-Potter-Shop" -->
+                      > VIEW ON GITHUB</a
+                    >
+                    <a
+                      class="generic-btn project-btn"
+                      target="_blank"
+                      <!-- href="https://grace-potter.herokuapp.com/" -->
+                      > SHOP</a
+                    >
+                  </div>
+                </div>
+                <div class="project-img-div">
+                  <img class="project-img-laptop" src="./images/grace-potter-macbook.png" />
+                </div>
+              </div>
+              <hr>
+    
+              <!-- Project 3 -->
+              <div class="single-project">
+                <div class="project-content">
+                  <h3>NYC Doggos </h3>
+                  <p>
+                    A web-scrapper that scrapes various NYC-based dog adoption centers and displays the aggregate of
+                    all available dogs ready for a new home in one convenient web-app. As it stands, it currently scrapes <a href="https://www.bideawee.org/">Bidawee Adoption Center</a>
+                    & <a href="https://ny.bestfriends.org/adopt">Best Friends New York</a>.
+
+                  </p>
+                  <h4>TECH STACK</h4>
+                  <ul>
+                    <li>React</li>
+                    <li>Cheerio.js</li>
+                    <li>Express.js</li>
+                  </ul>
+                  <a
+                    class="generic-btn project-btn"
+                    target="_blank"
+                    href="https://github.com/renatabubic/NYC-DOGGOS"
+                    > VIEW ON GITHUB</a
+                  >
+                </div>
+                <div class="project-img-div">
+                  <img class="project-img-laptop2" src="./images/nyc-doggos.png" />
+                </div>
+              </div>
+              </div>
+              </div>
+          </div>
+        </div>
+    
+        <!-- Experience Hero -->
+        <div class="bgimg" id="bgimg-experience">
+          <a id="jump-experience"></a>
+          <div class="caption">
+            <span class="border-3">EXPERIENCE</span>
+          </div>
+        </div>
+    
+        <!-- Exerience Section -->
+        <div class="outer" id="section-experience">
+          <div class="inner">
+    
+            <div id="download">
+              <a
+                class="generic-btn"
+                id="download-btn"
+                target="_blank"
+                <!-- href="./RENATA BUBIC CV.pdf" -->
+                >DOWNLOAD RESUME
+              </a>
+            </div>
+    
+            <div id="resume">
+              <!-- Education Panel -->
+              <button class="accordion active" data-toggle="dropdown">
+                Education
+                <div class="caret arrow-down"></div>
+              </button>
+              <div class="panel">
+                <h3>
+                  Grace Hopper Fullstack Academy<span class="date">Jan – Apr 2020</span>
+                </h3>
+                <h4>Computer Software Engineering</h4>
+                <p>
+                  Fullstack Academy is a 3-month full-time immersive software
+                  engineering program. The JavaScript-oriented curriculum includes
+                  Node.js, Express, PostgreSQL, React, Redux, advanced HTML & CSS, and
+                  CS fundamentals.
+                </p>
+                <hr />
+                <h3>
+                  Concordia University<span class="date">Sep 2015 – Jun 2017</span>
+                </h3>
+                <h4>Master of Science in Business Administration, Marketing specilization</h4>
+                <p>
+                  The Master of Science in Marketing (MSc) is a research-based Master’s degree program. 
+                  The program is designed for those who wish to enhance their expertise in the most 
+                  up-to-date marketing theories and in the tools and methods used to conduct advanced 
+                  marketing research. The research expertise available at JMSB ensures that MSc students 
+                  can work closely with a faculty member in developing their thesis in an area they are 
+                  passionate about. Develop advanced analytical and technical skills valued by employers, 
+                  get industry experience through the co-op program, and engage with your peers in small 
+                  classes.
+                </p>
+                <h3>
+                  University of Ottawa<span class="date">Sep 2009 – Apr 2014</span>
+                </h3>
+                <h4>Honours BSocSc in International Studies and Modern Languages</h4>
+                <p>
+                  This multi-disciplinary program introduces students to the study of international issues, 
+                  trans-border phenomena and intercultural relations of all kinds. It leads to an in-depth 
+                  understanding of the complex connections and interactions among local, national, regional 
+                  and global processes. It exposes students to a wide range of disciplinary viewpoints — 
+                  including economics, geography, history and world religions — while simultaneously providing 
+                  a solid and rigorous foundation in political science. As a complement to its focus on 
+                  international studies, the program offers advanced foreign-language training. Students acquire 
+                  proficiency in Canada's two official languages and in at least one additional modern language, 
+                  thus preparing them for the demands of an internationally-oriented career. The program also 
+                  develops fundamental skills in critical-thinking, analysis and synthesis, and teaches students 
+                  a variety of research methods. Students benefit from extensive international opportunities, 
+                  including study abroad, international field-research courses, a Model UN course, and 
+                  international internships. In addition to their second official language, students can choose 
+                  to study one of the following modern languages: Arabic, Chinese, German, Italian, Japanese, 
+                  Portuguese, Russian or Spanish. This program is offered in English and in French. 
+                </p>
+                <h4>Minor in Economics</h4>
+                <p>
+                  Economics examines how individuals and society make choices in a world where resources are 
+                  limited. It focuses on the production, distribution and consumption of goods and services. 
+                  Two important themes are efficiency (the absence of waste in the use of resources) and fairness. 
+                  Since making choices is central to all human activities, studying economics often helps 
+                  explain why people and governments behave in certain ways.
+                </p>
+              </div>
+    
+              <!-- Work Experience Panel-->
+              <button class="accordion active">
+                Work Experience
+                <div class="caret arrow-down"></div>
+              </button>
+              <div class="panel">
+                <h3>Revlon Cosmetics<span class="date">Jan 2018 – Jan 2020</span></h3>
+                <h4>Category Analyst, Prestige & Pro - Ulta Beauty</h4>
+                <ul>
+                  <li>
+                    Develop and Implement daily, weekly, and monthly reports to track the performance of all the sales metrics across Prestige & Pro brands
+                  </li>
+                  <li>
+                    Lead analyst/planner for monthly forecast meetings across Prestige & Pro brands. Partner with Demand Planning, Sales & Marketing leads to align senior management to ongoing and new product forecasts
+                  </li>
+                  <li>
+                    Primary owner of relationship with relevant Ulta Planners
+                  </li>
+                  <li>
+                    Monitor Ulta and Marketplace at large for relevant competitive activity and share with team in a timely manner. Include competitive analysis as context to weekly/monthly reporting
+                  </li>
+                  <li>
+                    New product set up including code setup, specifications, for both in store and online (PIM and PIM Web Enrichment)
+                    Manage display set up across all brands including creating deal sheets, coordinating data/information with customer buying team, coordinating with customer marketing on final display imaging & specs and enter all display specs/contents into PIM
+                  </li>
+                </ul>
+                <h4>Customer Business Development Coordinator</h4>
+                <ul>
+                  <li>
+                    Assist CBDM in weekly reporting and provide topline analysis to CBDM on risk and opportunities on the following:
+                    <ul>
+                      <li>
+                        Update all POS tracking reports, including New Products, providing topline summary of 
+                        performance vs. budget
+                      </li>
+                      <li>
+                        Update all Spending tracking reports (MDF), highlighting risks or opportunities vs. budget
+                      </li>
+                      <li>
+                        Update weekly flyer tracking reports, providing competitive analysis
+                      </li>
+                      <li>
+                        Create and maintain weekly POS vs JBP targets
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Responsible for managing all steps in listing/communication for New Products, relines and prepack submissions for all accounts and managing ongoing communication related to all customer specific listing programs.
+                  </li>
+                  <li>
+                    Responsible for project management of all aspects (including the communication with internal, external and third-party stakeholders) of new store opening, renovation, and re-location initiatives.
+                  </li>
+                </ul>
+                <hr />
+    
+                <h3>Uberflip<span class="date">Mar 2017 – Jan 2018</span></h3>
+                <h4>Senior Business Development Representative</h4>
+                <ul>
+                  <li>
+                    Working closely with Account Executives, my primary mandate is to identify 
+                    and prospect targeted companies as new opportunities of sale. From the strategic 
+                    analysis of their B2B marketing landscape, MarTech needs and demand generation pain points, 
+                    I utilize cold calling, account-based selling, and strategic planning to initiate the sales 
+                    cycle.
+                  </li>
+                </ul>
+                <hr />
+    
+                <h3>Bisco Industries<span class="date">Jan 2014 – Sep 2014</span></h3>
+                <h4>Junior Account Manager</h4>
+                <ul>
+                  <li>
+                    Managed small to medium sized accounts throughout the Quebec and Eastern Canada markets. Responsibilities 
+                    included new account acquisition, relationship management, order maintenance, and product sourcing.
+                  </li>
+                </ul>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <!-- Contact Hero -->
+        <div class="bgimg" id='bgimg-contact'>
+          <a id="jump-contact"></a>
+          <div class="caption">
+            <span id="contact" class="border-2">CONTACT</span>
+          </div>
+        </div>
+    
+        <!-- Contact Section -->
+        <div class="outer" id="section-contact">
+          <div class="inner">
+            <h3 id="contact-name">Renata Bubic</h3>
+            <h4>Software Engineer</h4>
+    
+            <p>
+              If you want to collaborate on any web or mobile applications, please
+              feel free to reach out.
+            </p>
+            <p>
+              I'm available for freelance projects and full-time employment.
+            </p>
+            <div id="footer-icons">
+              <a target="_blank" href="mailto:renata.c.bubic@gmail.com">
+                <img src="./images/mail-icon.png" />
+              </a>
+              <a target="_blank" href="tel:676-637-1206">
+                <img src="./images/phone-icon.png" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/renatabubic/"
+                >
+                <img src="./images/linkedIn-icon.png" />
+              </a>
+              <a target="_blank" href="https://github.com/renatabubic">
+              <img src="./images/github-icon.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- JAVASCRIPT -->
+        <script type="text/javascript" src="./js/app.js"></script>
+      </body>
+    </html>
