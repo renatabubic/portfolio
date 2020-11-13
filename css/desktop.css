@@ -275,6 +275,10 @@ h3 {
   flex-direction: column;
 }
 
+#dot-eater-img {
+  margin-left: 50px;
+}
+
 .generic-btn {
   color: #fff;
   text-decoration: none;
